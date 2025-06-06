@@ -3,7 +3,7 @@ name: My First GitHub Actions
 on: [push]
 
 jobs:
-  build:
+  build:   
     runs-on: self-hosted
    
     strategy:
